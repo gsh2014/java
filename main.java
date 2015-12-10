@@ -6,9 +6,9 @@ import java.util.Random;
 import edu.princeton.cs.algs4.StdDraw;
 
 
-
+//主函数
 public class main {
-    
+    //计算平面内点对的最近距离
     public static double closestPair(final points[] fuck)
 	{
     	double result;
@@ -123,8 +123,8 @@ public static void main(String[] args) {
 	   StdDraw.point(fuck[i].getX(), fuck[i].getY());
 	   System.out.println(fuck[i]);
    }
-   System.out.println(fuck.length);
    
+   System.out.println(fuck.length);
     double bitch=closestPair(fuck);
     System.out.println("closest_pair： "+bitch);
     //System.out.println(4%2);
